@@ -16,6 +16,23 @@ For designing this type of circuit we neeed a device which gives high output at 
 ## NMOS INVERTER DESIGNING
 
 First we need to understand the characteristics of an nmos transistor so we design a circuit in which we vary Vgs and Vds to get suitable characteristics
+so i design a circuit in this using nmos BSBO17N03LX3 which is available in lt spice we can use any nmos model present there
+
+<img width="607" height="535" alt="Screenshot 2025-08-17 at 3 02 53 PM" src="https://github.com/user-attachments/assets/3b35e25b-9244-41db-99be-3e73db0fbc35" />
+Fig (1)
+
+In this circuit we fixed the Vd at 3 volt and vary the Vg from 0 to 10 and plot the current negative of I(Vd) which entering in the Vd voltage source  we get the following characteristics:
+<img width="1470" height="956" alt="Screenshot 2025-08-17 at 3 03 25 PM" src="https://github.com/user-attachments/assets/131ddc95-5a99-4c72-9e86-3eb9cfd6b6d3" />
+Fig(2)
+Now we zoom into the part where current start to increase:
+<img width="2940" height="1912" alt="Screenshot 2025-08-17 at 3 04 50 PM" src="https://github.com/user-attachments/assets/cc4456d4-b725-4d9b-ba3b-006ae6502bc9" />
+Fig(3)
+
+Now this shows that if Vd is greater than 2.6 volt the Id start to increase and when it is less the current is zero so the threshold voltage is 2.6V.
+
+
+
+
 
 
 
