@@ -30,6 +30,9 @@ Fig(3)
 
 Now this shows that if Vd is greater than 2.6 volt the Id start to increase and when it is less the current is zero so the threshold voltage is 2.6V.
 
+Now we see that if we take input as Vg then when Vg is less than Vth(threshold voltage) There is no current flowing, but as the input Vg goes high the current also increases.
+so can these charasteristics be helpful in making a inverter yes i think because if the input is low we get no current so we can connect a resistor in between Vd and drain and take the output from drain in this case when input is less than 2.6 volt we get no current and Vo will be equal to Vd as no voltage drop occurs at resistor and if the input is high voltage drop across resistor and ve get a low output.
+
 
 
 
