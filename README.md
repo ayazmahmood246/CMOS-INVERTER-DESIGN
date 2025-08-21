@@ -33,6 +33,15 @@ Now this shows that if Vd is greater than 2.6 volt the Id start to increase and 
 Now we see that if we take input as Vg then when Vg is less than Vth(threshold voltage) There is no current flowing, but as the input Vg goes high the current also increases.
 so can these charasteristics be helpful in making a inverter yes i think because if the input is low we get no current so we can connect a resistor in between Vd and drain and take the output from drain in this case when input is less than 2.6 volt we get no current and Vo will be equal to Vd as no voltage drop occurs at resistor and if the input is high voltage drop across resistor and ve get a low output.
 
+## CIRCUIT DIAGRAM
+Now i have placed a 10k resistor between Vd and drain and set the value of Vd equals to 3v.
+
+Now i dc sweep the value of Vg from 0 to 5 volts and simulate the circuit to see the characteristics between Vo and Vg 
+
+As we can see when the input is in between 0 to 2 v the output is 3v and when the input is in between 2.4 to 5 v the output is 0v.
+So it is showing the prediction of ours is somewhat true we get high output at low voltage and low output at high voltage.
+
+Now we apply a square pulse and see what are the results
 
 
 
