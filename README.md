@@ -33,15 +33,21 @@ Now this shows that if Vd is greater than 2.6 volt the Id start to increase and 
 Now we see that if we take input as Vg then when Vg is less than Vth(threshold voltage) There is no current flowing, but as the input Vg goes high the current also increases.
 so can these charasteristics be helpful in making a inverter yes i think because if the input is low we get no current so we can connect a resistor in between Vd and drain and take the output from drain in this case when input is less than 2.6 volt we get no current and Vo will be equal to Vd as no voltage drop occurs at resistor and if the input is high voltage drop across resistor and ve get a low output.
 
-## CIRCUIT DIAGRAM
+## CIRCUIT DIAGRAM NMOS INVERTER
 Now i have placed a 10k resistor between Vd and drain and set the value of Vd equals to 3v.
 
 Now i dc sweep the value of Vg from 0 to 5 volts and simulate the circuit to see the characteristics between Vo and Vg 
 
 As we can see when the input is in between 0 to 2 v the output is 3v and when the input is in between 2.4 to 5 v the output is 0v.
 So it is showing the prediction of ours is somewhat true we get high output at low voltage and low output at high voltage.
+<img width="959" height="654" alt="Screenshot 2025-08-29 at 7 44 25 PM" src="https://github.com/user-attachments/assets/4d4c5ecf-5dc1-4e62-a829-8f518bd5397f" />
+
 
 Now we apply a square pulse and see what are the results
+<img width="1470" height="956" alt="Screenshot 2025-08-29 at 7 46 29 PM" src="https://github.com/user-attachments/assets/f1591300-c053-4e62-b32a-955a212acd60" />
+so, as we can see the results are as expexted we get low ouptut at high input and vice versa. We have successfully constucted an inverter by using nmos transistor. 
+
+
 
 
 
