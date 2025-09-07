@@ -47,6 +47,8 @@ Now we apply a square pulse and see what are the results
 <img width="1470" height="956" alt="Screenshot 2025-08-29 at 7 46 29 PM" src="https://github.com/user-attachments/assets/f1591300-c053-4e62-b32a-955a212acd60" />
 so, as we can see the results are as expexted we get low ouptut at high input and vice versa. We have successfully constucted an inverter by using nmos transistor. 
 
+We can similary do it for pmos and we get inverse of this.
+
 
 
 
