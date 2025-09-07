@@ -49,6 +49,23 @@ so, as we can see the results are as expexted we get low ouptut at high input an
 
 We can similary do it for pmos and we get inverse of this.
 
+## CMOS INVERTER APPROACH 
+
+as we can se the nmos and pmos independentaly can become inverter but....
+
+<img width="846" height="704" alt="Screenshot 2025-09-07 at 10 54 36 PM" src="https://github.com/user-attachments/assets/339894e0-e3af-4f94-9ff5-70751c0ca31d" />
+
+# OUTPUT
+
+We applied a square wave 
+
+<img width="2940" height="1912" alt="Screenshot 2025-09-07 at 10 54 21 PM" src="https://github.com/user-attachments/assets/42d5dba7-cbb5-46ed-84f2-dc7c9f9c03ed" />
+
+
+
+
+
+
 
 
 
