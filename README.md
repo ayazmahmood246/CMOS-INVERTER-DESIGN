@@ -51,7 +51,10 @@ We can similary do it for pmos and we get inverse of this.
 
 ## CMOS INVERTER APPROACH 
 
-as we can se the nmos and pmos independentaly can become inverter but....
+as we can se the nmos and pmos independentaly can become inverter.
+
+we can connect an nmos and pmos transistor in this when input is high the NMOS on and the output will be low as pmos transistor is at cutoff a 
+and if PMOS is on when input is low the nmos cutoff and the output will become high.
 
 <img width="846" height="704" alt="Screenshot 2025-09-07 at 10 54 36 PM" src="https://github.com/user-attachments/assets/339894e0-e3af-4f94-9ff5-70751c0ca31d" />
 
@@ -60,6 +63,9 @@ as we can se the nmos and pmos independentaly can become inverter but....
 We applied a square wave 
 
 <img width="2940" height="1912" alt="Screenshot 2025-09-07 at 10 54 21 PM" src="https://github.com/user-attachments/assets/42d5dba7-cbb5-46ed-84f2-dc7c9f9c03ed" />
+
+## conclusion
+We can see that NMOS and PMOS transistors can act like inverters when connected together. In a CMOS inverter, both are used in a complementary way. When the input is high, the NMOS turns ON and connects the output to ground, so the output becomes low. At the same time, the PMOS is in cutoff (OFF) and does not conduct. On the other hand, when the input is low, the PMOS turns ON and connects the output to VDD, making the output high, while the NMOS is in cutoff. During switching (when the input is around the threshold), both transistors can conduct for a short moment, and a small current flows directly from VDD to ground. This is why we get a sharp output change and almost no power loss in steady states. That’s why CMOS inverters are used everywhere as the basic building block of digital logic.
 
 
 
