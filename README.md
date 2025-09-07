@@ -55,7 +55,7 @@ as we can se the nmos and pmos independentaly can become inverter but....
 
 <img width="846" height="704" alt="Screenshot 2025-09-07 at 10 54 36 PM" src="https://github.com/user-attachments/assets/339894e0-e3af-4f94-9ff5-70751c0ca31d" />
 
-# OUTPUT
+### OUTPUT
 
 We applied a square wave 
 
