@@ -21,7 +21,7 @@ so i design a circuit in this using nmos BSBO17N03LX3 which is available in lt s
 <img width="607" height="535" alt="Screenshot 2025-08-17 at 3 02 53 PM" src="https://github.com/user-attachments/assets/3b35e25b-9244-41db-99be-3e73db0fbc35" />
 Fig (1)
 
-In this circuit we fixed the Vd at 3 volt and vary the Vg from 0 to 10 and plot the current negative of I(Vd) which entering in the Vd voltage source  we get the following characteristics:
+In this circuit we fixed the Vdd at 3 volt and vary the Vg from 0 to 10 and plot the current negative of I(Vd) which entering in the Vd voltage source  we get the following characteristics:
 <img width="1470" height="956" alt="Screenshot 2025-08-17 at 3 03 25 PM" src="https://github.com/user-attachments/assets/131ddc95-5a99-4c72-9e86-3eb9cfd6b6d3" />
 Fig(2)
 Now we zoom into the part where current start to increase:
@@ -30,8 +30,8 @@ Fig(3)
 
 Now this shows that if Vd is greater than 2.6 volt the Id start to increase and when it is less the current is zero so the threshold voltage is 2.6V.
 
-Now we see that if we take input as Vg then when Vg is less than Vth(threshold voltage) There is no current flowing, but as the input Vg goes high the current also increases.
-so can these charasteristics be helpful in making a inverter yes i think because if the input is low we get no current so we can connect a resistor in between Vd and drain and take the output from drain in this case when input is less than 2.6 volt we get no current and Vo will be equal to Vd as no voltage drop occurs at resistor and if the input is high voltage drop across resistor and ve get a low output.
+Now we see that if we take input as Vg then when Vg is less than 2.6v There is no current flowing, but as the input Vg goes high the current also increases.
+so can these charasteristics be helpful in making a inverter yes i think because if the input is low we get no current so we can connect a resistor in between Vd and drain and take the output from drain in this case when input is less than 2.6 volt we get no current and Vout will be equal to Vdd as no voltage drop occurs at resistor and if the input is high voltage drop across resistor and ve get a low output.
 
 ## CIRCUIT DIAGRAM NMOS INVERTER
 Now i have placed a 10k resistor between Vd and drain and set the value of Vd equals to 3v.
